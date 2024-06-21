@@ -1,3 +1,6 @@
+import React from "react";
+import  ReactDOM  from "react-dom/client";
+
 // ReactElement(object) => (convert code into) => HTML(that browser understands)
 
 // creating new element h1 i.e. core react thing so we using 'React.' here
@@ -14,7 +17,7 @@ const parent = [React.createElement(
     React.createElement(
         "div",
         { id: "child1"},
-        [React.createElement("h1", {}, "I am a H1 tag."),
+        [React.createElement("h1", {}, "I am a H1 tag and you know that this text is generating automatically on saving."),
         React.createElement("h2", {}, "I am a H2 tag.")]
     )
 )];
