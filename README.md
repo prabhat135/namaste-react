@@ -17,3 +17,42 @@
 - Error Handling
 - Tree Shaking - remove unused code
 - HTTPs 
+
+
+# Food app Structure
+
+/*
+
+* Header
+* - Logo
+* - Nav-Items
+* Body
+* - Search
+* - Resturants Container
+* --- Resturant Card
+* Footer
+* - Copyright
+* - Links
+* - Address
+* - Contact
+*/
+
+
+Two types of Export/Import
+
+- Default Export/Import
+
+export default Component;
+import Component from "path";
+
+- Named Export/Import
+
+export const Component;
+import { Component } from "path";
+
+
+# React Hooks
+ (Normal JS utility functions)
+
+- useState() - Supowerful State variable in React
+- useEffect()
